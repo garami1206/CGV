@@ -21,10 +21,10 @@
 .slide h1{font-size: 100px; font-weight: 600; color: #fff;position: absolute;}
 .slide a{display: block; height: 100%}
 
-    .slide01{background: url(../images/slide1-1.jpg) no-repeat center center;background-size: cover; text-align: center;}
+    .slide01{background: url(../images/con01Bg.png) no-repeat center center;background-size: cover; text-align: center;}
     .slide01 img{width: 500px;}
     .slide01 h1{font-size: 100px; font-weight: 900;  position: absolute; left: 45%; color: #000;}
-    .slide01 p{color: #303E5B; position: absolute; top: 60%; left: 22%;font-size: 20px; line-height: 40px;}
+    .slide01 p{color: #303E5B; position: absolute; top: 550px; left: 490px;font-size: 20px; line-height: 40px;}
 
     .slide02{background: #19191B url(../images/slide1-2.jpg) no-repeat center center;background-size: cover;}
     .slide02 h1{ color: #fff;  left: 20%; top:40%;}
