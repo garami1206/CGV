@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+
+.slick-dots button{border: 0; background: none; padding: 0; text-indent: -9999px;}
+.slick-dots li{width: 30px; height: 3px; border: 1px solid gray; float: left; margin: 0 3px;}
+.slick-dots .slick-active{background: #000;}
+
+#wrap{position: relative;}
+#header{position: fixed; height: 80px;z-index: 9000; background: #201F20; width: 100%;}
+
+#menu li{float: left; width:calc(25% - 1px); text-align: center; line-height: 80px; border-right: 1px solid gray;}
+#menu li:last-child{border-right: none;}
+#menu li:first-child a{color: darkred; font-weight: bold;}
+#menu li a{color: #fff;}
+
+#section0{position: relative;}
+#section0 h1{position: absolute; top: 50%; left: 55%; color: #fff; font-size: 80px; font-weight: 100;}
+
+
+.slide{position: relative;}
+.slide h1{font-size: 100px; font-weight: 600; color: #fff;position: absolute;}
+.slide a{display: block; height: 100%}
+
+    .slide01{background: url(../images/slide1-1.jpg) no-repeat center center;background-size: cover; text-align: center;}
+    .slide01 img{width: 500px;}
+    .slide01 h1{font-size: 100px; font-weight: 900;  position: absolute; left: 45%; color: #000;}
+    .slide01 p{color: #303E5B; position: absolute; top: 60%; left: 22%;font-size: 20px; line-height: 40px;}
+
+    .slide02{background: #19191B url(../images/slide1-2.jpg) no-repeat center center;background-size: 1700px;}
+    .slide02 h1{ color: #fff;  left: 20%; top:40%;}
+
+    .slide03{background: url(../images/slide1-3.jpg) no-repeat center center;background-size: cover;}
+    .slide03 h1{font-size: 100px; font-weight: 600; color: #fff; position: absolute; left: 20%; top:40%;}
+
+    .slide04{background: url(../images/slide1-4.jpg) no-repeat center center;background-size: cover;}
+
+#section2{padding-top: 10px;}
+#section2 img{width: 350px; margin-right: 10px; margin-bottom: 10px;}
+.movieList{width: 1200px; margin: 0 auto;}
+
+#section3{background:#1A1A1A url(../images/con04Bg.png) no-repeat 10%;background-size: cover;}
+
+    .envetList{margin: 0 auto;width: 1200px;}
+    .envetList img{height: 250px;}
+
+    .list2{margin-top: 30px; text-align: center;}
+.list1 img{width: 280px; }
+    .list1 a{margin-right: 20px;}
+    .list1 a:last-child{margin-right: 0px;}
+    
+.list2 a{margin-right: 30px;}
+    .list2 a:nth-child(2) img{width: inherit;}
+    .list2 a:last-child img{width: inherit;}
