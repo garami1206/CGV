@@ -26,7 +26,7 @@
     .slide01 h1{font-size: 100px; font-weight: 900;  position: absolute; left: 45%; color: #000;}
     .slide01 p{color: #303E5B; position: absolute; top: 60%; left: 22%;font-size: 20px; line-height: 40px;}
 
-    .slide02{background: #19191B url(../images/slide1-2.jpg) no-repeat center center;background-size: 1700px;}
+    .slide02{background: #19191B url(../images/slide1-2.jpg) no-repeat center center;background-size: cover;}
     .slide02 h1{ color: #fff;  left: 20%; top:40%;}
 
     .slide03{background: url(../images/slide1-3.jpg) no-repeat center center;background-size: cover;}
